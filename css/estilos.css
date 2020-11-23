@@ -1,0 +1,149 @@
+body {
+  background-color: #FFFCF6;
+  /* Uso la variable*/ }
+
+footer {
+  background-color: #EB7C63;
+  /* Uso la variable*/
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  color: #FFFFFF; }
+
+#menuFooterlink {
+  color: #FFFFFF; }
+
+#navbarSupportedContent {
+  background-color: #FDD7A1;
+  margin: 30px; }
+
+#navbarSupportedContent li:hover {
+  background-color: #FFFCF6; }
+
+.menuPrincipal {
+  color: #4D4D4D;
+  font-family: "Inter", sans-serif;
+  font-weight: 500; }
+
+.menuPrincipalActivo {
+  color: #D85B65; }
+
+.buscadorPrincipal {
+  margin: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100; }
+
+.botonBuscar {
+  background-color: #F6AC90; }
+
+.productosDestacados {
+  margin: 15px;
+  background-color: #FFFFFF;
+  justify-items: center; }
+
+.promocionesPrincipales {
+  margin: 10px;
+  background-color: #FDD7A1;
+  justify-items: center; }
+
+.promo {
+  max-width: 340px;
+  justify-items: center; }
+
+.titulosPrincipales {
+  color: #D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-align: center; }
+
+.titulosSecundarios {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; }
+
+.titulosSecundariosbox {
+  color: #333333;
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; }
+
+.subtitulosPrimarios {
+  color: #1D1D1B;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600; }
+
+.subtitulosSecundarios {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400; }
+
+.parrafos {
+  color: #333333;
+  font-family: 'Arenas movedizas', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left; }
+
+.parrafoNews {
+  color: #333333;
+  font-family: 'Arenas movedizas', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center; }
+
+.pProducto {
+  color: #D85B65;
+  font-family: 'Arenas movedizas', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center; }
+
+/*quienessomos*/
+.menuPrincipalQS {
+  color: #D85B65; }
+
+.titulosPrincipalesQS {
+  color: #D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-align: left; }
+
+.titulosSecundariosQS {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  text-align: center; }
+
+.fotosNosotros {
+  background-color: white;
+  text-align: center; }
+
+/*personalizados*/
+.menuPrincipalPer {
+  color: #D85B65; }
+
+.titulosPrincipalesPer {
+  color: #D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-align: left; }
+
+.titulosSecundariosPer {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; }
+
+/*contacto*/
+.menuPrincipalContacto {
+  color: #D85B65; }
+
+.titulosPrincipalesCont {
+  color: #D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-align: left; }
+
+.titulosFormulario,
+.titulosSecundariosCont {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; }

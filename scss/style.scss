@@ -1,0 +1,182 @@
+@import "colores";
+@import "fuentes";
+
+body {
+    background-color: $body-background-color; /* Uso la variable*/
+}
+
+footer {
+    background-color: $footer-background-color; /* Uso la variable*/
+    font-family: $font-family-footer;
+    font-weight: $font-weight-footer;
+    color: $footer-color;
+}
+
+#menuFooterlink {
+    color: $footer-color;
+}
+
+#navbarSupportedContent {
+    background-color: $menuPrincipal-background-color;
+    margin: 30px;
+}
+
+
+#navbarSupportedContent li:hover {
+    background-color: $hover-nav-color;
+    }
+
+.menuPrincipal {
+    color: $menuPrincipal-font-color;
+    font-family: $font-family-nav;
+    font-weight: $font-weight-nav;
+}
+
+.menuPrincipalActivo {
+    color: $menuPrincipalactive-font-color;
+}
+
+.buscadorPrincipal {
+    margin: 10px;
+    font-family: $font-family-buscadorPrincipal;
+    font-weight: $font-weight-buscadorPrincipal;
+}
+
+.botonBuscar {
+    background-color: $buscadorPrincipal-background-color;
+}
+
+.productosDestacados {
+    margin: 15px;
+    background-color: $productosDestacados-background-color;
+    justify-items: center;
+}
+
+.promocionesPrincipales {
+    margin: 10px;
+    background-color: #FDD7A1;
+    justify-items: center;
+}
+
+.promo {
+    max-width: 340px;
+    justify-items: center;
+}
+
+.titulosPrincipales {
+    color:#D85B65;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.titulosSecundarios {
+    color: #1D1D1B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.titulosSecundariosbox {
+    color: #333333;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.subtitulosPrimarios {
+    color: #1D1D1B;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.subtitulosSecundarios {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.parrafos {
+    color: #333333;
+    font-family: 'Arenas movedizas', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+}
+
+.parrafoNews {
+    color: #333333;
+    font-family: 'Arenas movedizas', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pProducto {
+    color:  #D85B65;
+    font-family: 'Arenas movedizas', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center; }
+
+/*quienessomos*/
+
+.menuPrincipalQS {
+    color:#D85B65;
+}
+
+.titulosPrincipalesQS {
+    color:#D85B65;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.titulosSecundariosQS {
+    color: #1D1D1B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.fotosNosotros {
+    background-color:white;
+    text-align: center;
+}
+
+/*personalizados*/
+
+.menuPrincipalPer {
+    color:#D85B65;
+}
+
+.titulosPrincipalesPer {
+    color:#D85B65;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.titulosSecundariosPer {
+    color: #1D1D1B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/*contacto*/
+
+.menuPrincipalContacto {
+    color:#D85B65;
+}
+
+.titulosPrincipalesCont {
+    color:#D85B65;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-align: left;
+}
+.titulosFormulario,
+.titulosSecundariosCont {
+    color: #1D1D1B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
