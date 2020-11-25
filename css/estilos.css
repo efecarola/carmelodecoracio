@@ -77,7 +77,7 @@ footer {
   font-weight: 400; }
 
 .parrafos {
-  color: #333333;
+  color: red;
   font-family: 'Arenas movedizas', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -96,6 +96,25 @@ footer {
   font-weight: 700;
   font-size: 16px;
   text-align: center; }
+
+.about h3 {
+  font-weight: 300;
+  font-size: 26px; }
+
+.about ul {
+  list-style: none;
+  padding: 0; }
+
+.about ul li {
+  padding-bottom: 10px; }
+
+.about ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #70b9b0; }
+
+.about p:last-child {
+  margin-bottom: 0; }
 
 /*quienessomos*/
 .menuPrincipalQS {
