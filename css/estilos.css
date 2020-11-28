@@ -12,6 +12,7 @@ footer {
 #menuFooterlink {
   color: #FFFFFF; }
 
+<<<<<<< HEAD
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -396,9 +397,82 @@ body.mobile-nav-active #mobile-nav {
 
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
+=======
+.logo__header {
+  margin: 30px; }
+
+#topbar {
+  margin: 10px;
+  background: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px; }
+
+#topbar .contact-info a {
+  line-height: 1;
+  color: #555; }
+
+#topbar .contact-info a:hover {
+  color: #50d8af; }
+
+#topbar .contact-info i {
+  color: #50d8af;
+  padding: 4px; }
+
+#topbar .contact-info .fa-phone {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #e9e9e9; }
+
+#topbar .social-links a {
+  color: #555;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  border-left: 1px solid #e9e9e9; }
+
+#topbar .social-links a:hover {
+  color: #50d8af; }
+
+#topbar .social-links a:first-child {
+  border-left: 0; }
+
+#topbar .contact-info a {
+  line-height: 1;
+  color: #555; }
+
+#topbar .contact-info a:hover {
+  color: #50d8af; }
+
+#topbar .contact-info i {
+  color: #50d8af;
+  padding: 4px; }
+
+#topbar .contact-info .fa-phone {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #e9e9e9; }
+
+#topbar .social-links a {
+  color: #555;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  border-left: 1px solid #e9e9e9; }
+
+#topbar .social-links a:hover {
+  color: #50d8af; }
+
+#topbar .social-links a:first-child {
+  border-left: 0; }
+
+#navbarNavDropdown.collapse.navbar-collapse {
+  align-items: center;
+  margin: 5px; }
+>>>>>>> 8764a6a9849fedf651f7d9bb7286be0a6ff1ecd8
 
 .buscadorPrincipal {
-  margin: 10px;
+  margin: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: 100; }
 
@@ -467,9 +541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
   text-align: center; }
 
-/*--------------------------------------------------------------
-# GIFT
---------------------------------------------------------------*/
+/*GIFT*/
 .about h3 {
   font-weight: 300;
   font-size: 26px; }
@@ -489,9 +561,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about p:last-child {
   margin-bottom: 0; }
 
-/*--------------------------------------------------------------
-# Promociones
---------------------------------------------------------------*/
+/*Promociones*/
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -591,9 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf; }
 
-/*--------------------------------------------------------------
-# Productos Destacados
---------------------------------------------------------------*/
+/*Productos Destacados*/
 .team {
   background: #fff;
   padding: 60px 0; }
