@@ -12,7 +12,11 @@ footer {
 #menuFooterlink {
   color: #FFFFFF; }
 
+.logo__header {
+  margin: 30px; }
+
 #topbar {
+  margin: 10px;
   background: #fff;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
@@ -76,8 +80,12 @@ footer {
 #topbar .social-links a:first-child {
   border-left: 0; }
 
+#navbarNavDropdown.collapse.navbar-collapse {
+  align-items: center;
+  margin: 5px; }
+
 .buscadorPrincipal {
-  margin: 10px;
+  margin: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: 100; }
 
