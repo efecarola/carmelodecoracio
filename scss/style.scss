@@ -1,6 +1,7 @@
 @import "colores";
 @import "fuentes";
 
+
 body {
     background-color: $body-background-color; /* Uso la variable*/
 }
@@ -34,6 +35,7 @@ footer {
   line-height: 1;
   color: #555;
 }
+
 
 #topbar .contact-info a:hover {
   color: #50d8af;
