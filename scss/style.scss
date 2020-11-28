@@ -94,3 +94,417 @@ footer {
 #topbar .social-links a:first-child {
   border-left: 0;
 }
+
+
+.buscadorPrincipal {
+  margin: 10px;
+  font-family: $font-family-buscadorPrincipal;
+  font-weight: $font-weight-buscadorPrincipal;
+}
+
+.botonBuscar {
+  background-color: $buscadorPrincipal-background-color;
+}
+
+.productosDestacados {
+  margin: 15px;
+  background-color: $productosDestacados-background-color;
+  justify-items: center;
+}
+
+.promocionesPrincipales {
+  margin: 10px;
+  background-color: #FDD7A1;
+  justify-items: center;
+}
+
+.promo {
+  max-width: 340px;
+  justify-items: center;
+}
+
+.titulosPrincipales {
+  color:#D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.titulosSecundarios {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.titulosSecundariosbox {
+  color: #333333;
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.subtitulosPrimarios {
+  color: #1D1D1B;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.subtitulosSecundarios {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+.parrafos {
+  color: red;
+  font-family: 'Arenas movedizas', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+.parrafoNews {
+  color: #333333;
+  font-family: 'Arenas movedizas', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.pProducto {
+  color:  #D85B65;
+  font-family: 'Arenas movedizas', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center; }
+
+/*GIFT*/
+
+.about h3 {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  padding-bottom: 10px;
+}
+
+.about ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #70b9b0;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}    
+
+/*Promociones*/
+
+.services .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.services .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.services .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.services .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+
+.services .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
+.services .icon-box h4 a {
+  color: #222222;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .iconbox-blue i {
+  color: #47aeff;
+}
+
+.services .iconbox-blue:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-blue:hover .icon path {
+  fill: #47aeff;
+}
+
+.services .iconbox-orange i {
+  color: #ffa76e;
+}
+
+.services .iconbox-orange:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-orange:hover .icon path {
+  fill: #ffa76e;
+}
+
+.services .iconbox-pink i {
+  color: #e80368;
+}
+
+.services .iconbox-pink:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-pink:hover .icon path {
+  fill: #e80368;
+}
+
+.services .iconbox-yellow i {
+  color: #ffbb2c;
+}
+
+.services .iconbox-yellow:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-yellow:hover .icon path {
+  fill: #ffbb2c;
+}
+
+.services .iconbox-red i {
+  color: #ff5828;
+}
+
+.services .iconbox-red:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-red:hover .icon path {
+  fill: #ff5828;
+}
+
+.services .iconbox-teal i {
+  color: #11dbcf;
+}
+
+.services .iconbox-teal:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-teal:hover .icon path {
+  fill: #11dbcf;
+}
+ 
+
+/*Productos Destacados*/
+
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #493c3e;
+  margin: 0 10px;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+.team .member .social a:hover {
+  color: #e43c5c;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #493c3e;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+}
+
+
+.newsletter {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  background: #fff;
+}
+
+.newsletter .content {
+background:#F6AC8F;    
+max-width: 920px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.newsletter .content h2 {
+color: #243c4f;
+margin-bottom: 40px; }
+.newsletter .content .form-control {
+height: 50px;
+border-color: #ffffff;
+border-radius:0;
+}
+.newsletter .content.form-control:focus {
+box-shadow: none;
+border: 2px solid #F6AC8F;
+}
+.newsletter .content .btn {
+min-height: 50px; 
+border-radius:0;
+background: #243c4f;
+color: #fff;
+font-weight:600;
+}
+
+
+/*quienessomos*/
+
+.menuPrincipalQS {
+  color:#D85B65;
+}
+
+.titulosPrincipalesQS {
+  color:#D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-align: left;
+}
+
+.titulosSecundariosQS {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.fotosNosotros {
+  background-color:white;
+  text-align: center;
+}
+
+/*personalizados*/
+
+.menuPrincipalPer {
+  color:#D85B65;
+}
+
+.titulosPrincipalesPer {
+  color:#D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-align: left;
+}
+
+.titulosSecundariosPer {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+/*contacto*/
+
+.menuPrincipalContacto {
+  color:#D85B65;
+}
+
+.titulosPrincipalesCont {
+  color:#D85B65;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-align: left;
+}
+.titulosFormulario,
+.titulosSecundariosCont {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
