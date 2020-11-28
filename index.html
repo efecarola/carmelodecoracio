@@ -14,20 +14,19 @@
 	<title>Carmelo Decoración</title>
   </head>
   <body>
-	<!-- Iconos redes ver como poner-->
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-xs-12">
-				<div class="shared-panel">
-					<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevlaz.com%2Fbotones-redes-sociales-en-html5-y-jquery&t=Botones%20de%20redes%20sociales%20en%20html%20y%20JQuery%20%7C%20Devlaz" target="_blank" class="shared fb" title="Facebook"></a>	
-					<a target="_blank" class="shared tt" title="Twitter"></a>
-					<a target="_blank" class="shared gp" title="Google+"></a>
-					<a  data-action='share/whatsapp/share' class="shared wa" title="WhatsApp"></a>
-					<a target="_blank" class="shared ce" id="sml" title="Email"></a>		
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- Top Redes-Contacto -->
+<section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">carmelodecoracion@gmail.com</a>
+        <i class="fa fa-phone"></i> 011-59595-5259
+      </div>
+      <div class="social-links float-right">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </section><!-- Fin Top Redes Contacto -->
 	<!-- Logo -->
 	<div class="container">
 		<div class="row">
@@ -39,27 +38,33 @@
 		</div>
 	</div>
 
+
 <!-- Nav -->
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-xs-12">
-        <ul>
-          <li class="active"><a href="index.html">HOME</a></li>
-		  <li><a href="pages/quienessomos.html">QUIENES SOMOS</a></li>
-		  <li class="drop-down"><a href="">PRODUCTOS</a>
-            <ul>
-              <li><a href="subpages/cuadrosdecorativos.html">CUADROS DECORATIVOS</a></li>
-              <li><a href="subpages/cuadrosparapintar.html">CUADROS PARA PINTAR</a></li>
-              <li><a href="subpages/cuadrosconmarco.html">CUADROS CON MARCO</a></li>
-			  <li><a href="subpages/cuadrosenpartes.html">CUADROS EN PARTES</a></li>
-			  <li><a href="subpages/cuadrosensets.html">CUADROS EN SETS</a></li>
-            </ul>
-          </li>
-          <li><a href="pages/personalizados.html">PERSONALIZADOS</a></li>
-          <li><a href="pages/contacto.html">CONTACTO</a></li>
-        </ul>
-	  </nav>
-	  </div><!-- Fin Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+	  <ul class="navbar-nav">
+		<li class="nav-item active">
+		  <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="pages/quienessomos.html">QUIENES SOMOS</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="pages/productos.html">PRODUCTOS</a>
+		  </li>
+		<li class="nav-item">
+		  <a class="nav-link" href="pages/personalizados.html">PERSONALIZADOS</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+		  </li>
+	  </ul>
+	</div>
+  </nav> <!-- Fin Nav -->
 
 	<!-- Buscador -->
 	  <div class="container">
