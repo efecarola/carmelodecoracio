@@ -7,6 +7,13 @@
     text-align: left;
 }
 
+@mixin titulossecundarios {
+  color: #1D1D1B;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+
 body {
     background-color: $body-background-color; /* Uso la variable*/
 }
@@ -146,9 +153,7 @@ footer {
 }
 
 .titulosSecundarios {
-  color: #1D1D1B;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  @include titulossecundarios;
 }
 
 .titulosSecundariosbox {
@@ -468,13 +473,6 @@ font-weight:600;
   color:#D85B65;
 }
 
-.titulosSecundariosQS {
-  color: #1D1D1B;
-  font-family: 'Inter', sans-serif;
-  font-weight: 200;
-  text-align: center;
-}
-
 .fotosNosotros {
   background-color:white;
   text-align: center;
@@ -487,12 +485,6 @@ font-weight:600;
 }
 
 
-.titulosSecundariosPer {
-  color: #1D1D1B;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-}
-
 /*contacto*/
 
 .menuPrincipalContacto {
@@ -500,8 +492,7 @@ font-weight:600;
 }
 
 
-.titulosFormulario,
-.titulosSecundariosCont {
+.titulosFormulario {
   color: #1D1D1B;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
