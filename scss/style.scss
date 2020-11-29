@@ -1,6 +1,11 @@
 @import "colores";
 @import "fuentes";
-
+@mixin titulosprincipales {
+    color:#D85B65;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
 
 body {
     background-color: $body-background-color; /* Uso la variable*/
@@ -135,11 +140,9 @@ footer {
   justify-items: center;
 }
 
-.titulosPrincipales {
-  color:#D85B65;
-  font-family: 'Inter', sans-serif;
-  font-weight: 900;
-  text-align: center;
+
+.titulos__principales {
+  @include titulosprincipales;
 }
 
 .titulosSecundarios {
@@ -465,13 +468,6 @@ font-weight:600;
   color:#D85B65;
 }
 
-.titulosPrincipalesQS {
-  color:#D85B65;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  text-align: left;
-}
-
 .titulosSecundariosQS {
   color: #1D1D1B;
   font-family: 'Inter', sans-serif;
@@ -490,12 +486,6 @@ font-weight:600;
   color:#D85B65;
 }
 
-.titulosPrincipalesPer {
-  color:#D85B65;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  text-align: left;
-}
 
 .titulosSecundariosPer {
   color: #1D1D1B;
@@ -509,12 +499,7 @@ font-weight:600;
   color:#D85B65;
 }
 
-.titulosPrincipalesCont {
-  color:#D85B65;
-  font-family: 'Inter', sans-serif;
-  font-weight: 900;
-  text-align: left;
-}
+
 .titulosFormulario,
 .titulosSecundariosCont {
   color: #1D1D1B;
