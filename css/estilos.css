@@ -106,11 +106,11 @@ footer {
   max-width: 340px;
   justify-items: center; }
 
-.titulosPrincipales {
+.titulos__principales {
   color: #D85B65;
   font-family: 'Inter', sans-serif;
-  font-weight: 900;
-  text-align: center; }
+  font-weight: 700;
+  text-align: left; }
 
 .titulosSecundarios {
   color: #1D1D1B;
@@ -377,18 +377,6 @@ footer {
 .menuPrincipalQS {
   color: #D85B65; }
 
-.titulosPrincipalesQS {
-  color: #D85B65;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  text-align: left; }
-
-.titulosSecundariosQS {
-  color: #1D1D1B;
-  font-family: 'Inter', sans-serif;
-  font-weight: 200;
-  text-align: center; }
-
 .fotosNosotros {
   background-color: white;
   text-align: center; }
@@ -397,29 +385,11 @@ footer {
 .menuPrincipalPer {
   color: #D85B65; }
 
-.titulosPrincipalesPer {
-  color: #D85B65;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  text-align: left; }
-
-.titulosSecundariosPer {
-  color: #1D1D1B;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400; }
-
 /*contacto*/
 .menuPrincipalContacto {
   color: #D85B65; }
 
-.titulosPrincipalesCont {
-  color: #D85B65;
-  font-family: 'Inter', sans-serif;
-  font-weight: 900;
-  text-align: left; }
-
-.titulosFormulario,
-.titulosSecundariosCont {
+.titulosFormulario {
   color: #1D1D1B;
   font-family: 'Inter', sans-serif;
   font-weight: 400; }
