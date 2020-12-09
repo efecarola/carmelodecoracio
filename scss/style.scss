@@ -18,17 +18,14 @@ body {
     background-color: $body-background-color; /* Uso la variable*/
 }
 
-footer {
-    background-color: $footer-background-color; /* Uso la variable*/
-    font-family: $font-family-footer;
-    font-weight: $font-weight-footer;
-    color: $footer-color;
-}
+
 
 /* footer*/
 
-.footerPrincilpal {
-  background-color: red;
+.footerPrincipal {
+  background-color: #EB7C63;
+  margin: 10px;
+}
 
 /* fin footer*/
 
@@ -297,5 +294,4 @@ font-weight:600;
 .titulosFormulario {
   color: #1D1D1B;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
-}
+  font-weight: 400;}
