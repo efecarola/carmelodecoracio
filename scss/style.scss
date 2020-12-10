@@ -17,6 +17,12 @@ body {
     background-color: $body-background-color; /* Uso la variable*/
 }
 
+/*top bar*/
+
+.topBar{
+  margin-top: 10px;
+}
+
 /* footer*/
 
 .footerPrincipal {
@@ -34,10 +40,13 @@ body {
   margin: 30px;
 }
 
-#navbarNavDropdown.collapse.navbar-collapse {
-  align-items: center;
-  margin: 5px;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #EB7C63;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color:#4D4D4D;
+
 
 .buscadorPp {
   margin-top: 30px;
