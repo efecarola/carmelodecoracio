@@ -12,20 +12,12 @@ body {
   background-color: #EB7C63;
   margin-top: 25px; }
 
-.copyR {
-  background-color: #EB7C63; }
-
 /* fin footer*/
 .logo__header {
   margin: 30px; }
 
-#navbarNavDropdown.collapse.navbar-collapse {
-  align-items: center;
-  margin: 5px; }
-
-.navFuente {
-  align-items: center;
-  color: #EB7C63; }
+.nav-link {
+  color: #D85B65; }
 
 .buscadorPp {
   margin-top: 30px;
