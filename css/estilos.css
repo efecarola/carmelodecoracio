@@ -16,8 +16,8 @@ body {
 .logo__header {
   margin: 30px; }
 
-.nav-link {
-  color: #D85B65; }
+.navbar-nav {
+  color: red !important; }
 
 .buscadorPp {
   margin-top: 30px;
