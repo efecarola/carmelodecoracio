@@ -5,6 +5,10 @@ body {
 /* footer*/
 .footerPrincipal {
   padding: 10px;
+  background-color: #EB7C63;
+  margin-top: 25px; }
+
+.copyR {
   background-color: #EB7C63; }
 
 /* fin footer*/
@@ -15,8 +19,8 @@ body {
   align-items: center;
   margin: 5px; }
 
-.buscadorPrincipal {
-  margin: 20px;
+.buscadorPp {
+  margin-top: 30px;
   font-family: "Nunito", sans-serif;
   font-weight: 100; }
 
@@ -69,28 +73,22 @@ body {
   text-align: center; }
 
 /*GIFT*/
-.about h3 {
+.giftCard {
+  padding: 10px;
+  margin-top: 15px; }
+
+.giftCard h3 {
   font-weight: 300;
   font-size: 26px; }
 
-.about ul {
+.giftCard ul {
   list-style: none;
   padding: 0; }
 
-.about ul li {
-  padding-bottom: 10px; }
-
-.about ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #70b9b0; }
-
-.about p:last-child {
-  margin-bottom: 0; }
-
 /*Promociones*/
 .promocionesIndex {
-  padding: 5px; }
+  padding: 5px;
+  margin-top: 15px; }
 
 .promocionesIndex .icon-box {
   text-align: center;
@@ -112,7 +110,7 @@ body {
 /*Productos Destacados*/
 .productosDestacados {
   padding: 10px 0;
-  margin: 45px; }
+  margin-top: 15px; }
 
 .productosDestacados .cuadros {
   margin-bottom: 20px;
@@ -155,15 +153,16 @@ body {
 
 /*newsletter*/
 .newsletterPrincipal {
-  background-color: #EB7C63;
-  padding: 20px; }
+  background-color: #FDD7A1;
+  padding: 30px;
+  margin-top: 15px; }
 
 .btn-primary {
-  background-color: #FDD7A1;
+  background-color: #AFDACF;
   color: #4D4D4D; }
 
 .btn-primary:hover {
-  background-color: #AFDACF;
+  background-color: #ffffff;
   color: #D85B65; }
 
 /*fin newsletter*/
