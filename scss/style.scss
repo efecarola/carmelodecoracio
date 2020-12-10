@@ -13,12 +13,9 @@
   font-weight: 400;
 }
 
-
 body {
     background-color: $body-background-color; /* Uso la variable*/
 }
-
-
 
 /* footer*/
 
@@ -43,28 +40,6 @@ body {
   font-family: $font-family-buscadorPrincipal;
   font-weight: $font-weight-buscadorPrincipal;
 }
-
-.botonBuscar {
-  background-color: $buscadorPrincipal-background-color;
-}
-
-.productosDestacados {
-  margin: 15px;
-  background-color: $productosDestacados-background-color;
-  justify-items: center;
-}
-
-.promocionesPrincipales {
-  margin: 10px;
-  background-color: #FDD7A1;
-  justify-items: center;
-}
-
-.promo {
-  max-width: 340px;
-  justify-items: center;
-}
-
 
 .titulos__principales {
   @include titulosprincipales;
@@ -144,7 +119,11 @@ body {
 
 /*Promociones*/
 
-.services .icon-box {
+.promocionesIndex {
+  padding: 5px;
+}
+
+.promocionesIndex .icon-box {
   text-align: center;
   padding: 30px 30px 30px 30px;
   transition: all ease-in-out 0.3s;
@@ -152,60 +131,26 @@ body {
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
-
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
-}
-
-.services .icon-box h4 {
+.promocionesIndex .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .icon-box h4 a {
-  color: #222222;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
+.promocionesIndex .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-
 /*Productos Destacados*/
 
-.team {
-  background: #fff;
-  padding: 60px 0;
+.productosDestacados {
+  padding: 10px 0;
+  margin: 45px;
 }
 
-.team .member {
+.productosDestacados .cuadros {
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
@@ -214,67 +159,39 @@ body {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.team .member .member-img {
+.productosDestacados .cuadros .cuadros-img {
   position: relative;
   overflow: hidden;
 }
 
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 40px;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.85);
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
 }
 
-.team .member .social a {
-  transition: color 0.3s;
-  color: #493c3e;
-  margin: 0 10px;
-  padding-top: 8px;
-  display: inline-block;
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.team .member .social a:hover {
-  color: #e43c5c;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-.team .member .member-info {
-  padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
+.productosDestacados .cuadros .cuadros-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #493c3e;
 }
 
-.team .member .member-info span {
+.productosDestacados .cuadros .cuadros-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
 }
 
-.team .member .member-info p {
+.productosDestacados .cuadros .cuadros-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
   color: #777777;
-}
-
-.team .member:hover .social {
-  opacity: 1;
 }
 
 
