@@ -19,8 +19,8 @@ body {
 .navbar-nav a {
   color: red !important; }
 
-.navbar-nav .sr-only {
-  color: royalblue; }
+.centrar-opciones {
+  text-align: center; }
 
 .buscadorPp {
   margin-top: 30px;
