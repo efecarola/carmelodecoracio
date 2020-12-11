@@ -77,18 +77,46 @@ body {
   font-size: 34px; }
 
 .titulos__secundarios {
-  color: #1D1D1B;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   text-align: center;
   font-size: 24px; }
 
-.titulossecundarios__gift {
-  color: #1D1D1B;
+.titulos__secundarios-gift {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 24px; }
+
+.font__gift {
+  color: #819583;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   text-align: left;
-  font-size: 24px; }
+  font-size: 18px; }
+
+.texto__index {
+  color: #1D1D1B;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 16px; }
+
+.parrafos {
+  color: #EB7C63;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center; }
+
+.textPromo {
+  color: #819583;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center; }
 
 .titulosSecundariosbox {
   color: #333333;
@@ -105,13 +133,6 @@ body {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: 400; }
-
-.parrafos {
-  color: red;
-  font-family: 'Arenas movedizas', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: left; }
 
 .parrafoNews {
   color: #333333;
