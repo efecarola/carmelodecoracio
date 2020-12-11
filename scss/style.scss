@@ -85,11 +85,6 @@ body {
 }
 }
 
-.parrafos__pages {
-  font-family: $font-family-parrafos;
-  font-weight: $font-weight-parrafos;
-  color: $color-font-parrafos;
-}
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color:#EB7C63 !important;
@@ -173,14 +168,14 @@ body {
   text-align: center;
 }
 
-
-.parrafos__pages{
-  color:blue !important;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+.parrafos__pages {
+  font-family: $font-family-parrafos;
+  font-weight: $font-weight-parrafos;
+  color: $color-font-parrafos;
   text-align: justify;
-  font-size: 30px;
+  font-size: 18px;
 }
+
 
 .titulosSecundariosbox {
   color: #333333;
@@ -263,7 +258,7 @@ body {
   margin-top: 15px;
 }
 
-}
+
 .productosDestacados .cuadros {
   margin-bottom: 20px;
   overflow: hidden;
@@ -312,14 +307,14 @@ body {
 
 /*newsletter*/
 .newsletterPrincipal{
- background-color: black;
+ background-color:#FDD7A1;
  margin-top: 15px;
 }
 .btn-primary {
   background-color: #AFDACF;
   color:#4D4D4D;
-  font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-family:'Lato', sans-serif;
 }
 
 .btn-primary:hover {
@@ -328,10 +323,6 @@ body {
 }
 
 /*fin newsletter*/
-
-
-/*quienessomos*/
-
 
 
 /*productos*/
@@ -359,6 +350,10 @@ body {
   border: 5px solid #fff;
 }
 
+
+.instrucciones{
+  background-color: red;
+}
 /* fin personalizados*/
 
 /*contacto*/

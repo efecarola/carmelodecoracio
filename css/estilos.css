@@ -118,6 +118,13 @@ body {
   font-size: 16px;
   text-align: center; }
 
+.parrafos__pages {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-align: justify;
+  font-size: 18px; }
+
 .titulosSecundariosbox {
   color: #333333;
   background-color: white;
@@ -227,26 +234,19 @@ body {
 /*newsletter*/
 .newsletterPrincipal {
   background-color: #FDD7A1;
-  padding: 30px;
   margin-top: 15px; }
 
 .btn-primary {
   background-color: #AFDACF;
-  color: #4D4D4D; }
+  color: #4D4D4D;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif; }
 
 .btn-primary:hover {
   background-color: #ffffff;
   color: #D85B65; }
 
 /*fin newsletter*/
-/*quienessomos*/
-.menuPrincipalQS {
-  color: #D85B65; }
-
-.fotosNosotros {
-  background-color: white;
-  text-align: center; }
-
 /*productos*/
 #galeria .col-lg-4 {
   margin: 0 !important;
@@ -264,6 +264,9 @@ body {
 
 #galeria img:hover {
   border: 5px solid #fff; }
+
+.instrucciones {
+  background-color: red; }
 
 /* fin personalizados*/
 /*contacto*/
