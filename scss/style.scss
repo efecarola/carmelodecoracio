@@ -85,6 +85,11 @@ body {
 }
 }
 
+.parrafos__pages {
+  font-family: $font-family-parrafos;
+  font-weight: $font-weight-parrafos;
+  color: $color-font-parrafos;
+}
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color:#EB7C63 !important;
@@ -170,11 +175,11 @@ body {
 
 
 .parrafos__pages{
-  color:blue;
+  color:blue !important;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   text-align: justify;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .titulosSecundariosbox {
