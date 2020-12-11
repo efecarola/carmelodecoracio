@@ -350,16 +350,42 @@ body {
   border: 5px solid #fff;
 }
 
+.card-title {
+  color:#EA5467;
+  font-family:'Lato', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+}
 .formulario__per {
   background-color: #B3D5F2;
 }
 
 .formulario__p{
-  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .texto__formularioper{
-  color: #292C62;
+  color:#1F1A3F;
+  font-family:'Lato', sans-serif;
+  font-weight: 600;
+}
+
+.btn__personalizados {
+  background-color: #EB7C63;
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  font-family:'Lato', sans-serif;
+  border: none;
+  position: relative;
+}
+
+.btn__personalizados:hover {
+  background-color: #ffffff;
+  color:#1F1A3F;
+  border: none;
 }
 /* fin personalizados*/
 
