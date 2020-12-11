@@ -38,10 +38,15 @@ body {
 
 
 .navbar-nav {
-  color:red !important;
+  a{
+  color: red !important;
+  .sr-only {
+    color: royalblue !important;
+  }
+  ul {
+    align-items: center;
+  }
 }
-
-
 
 
 .buscadorPp {

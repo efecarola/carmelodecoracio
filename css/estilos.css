@@ -16,8 +16,11 @@ body {
 .logo__header {
   margin: 30px; }
 
-.navbar-nav {
+.navbar-nav a {
   color: red !important; }
+
+.navbar-nav .sr-only {
+  color: royalblue; }
 
 .buscadorPp {
   margin-top: 30px;
