@@ -169,6 +169,14 @@ body {
 }
 
 
+.parrafos__pages{
+  color: red;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 18px;
+}
+
 .titulosSecundariosbox {
   color: #333333;
   background-color: white;
@@ -266,9 +274,6 @@ body {
   overflow: hidden;
 }
 
-.zoom img {
-  align-items: center;
-}
 .zoom {
   transition: transform .2s; /* Animation */
   margin: 0 auto;
@@ -322,14 +327,6 @@ body {
 
 /*quienessomos*/
 
-.menuPrincipalQS {
-  color:#D85B65;
-}
-
-.fotosNosotros {
-  background-color:white;
-  text-align: center;
-}
 
 
 /*productos*/
