@@ -265,8 +265,14 @@ body {
 #galeria img:hover {
   border: 5px solid #fff; }
 
-.instrucciones {
-  background-color: red; }
+.formulario__per {
+  background-color: #B3D5F2; }
+
+.formulario__p {
+  margin: 20px 20px 20px 20px; }
+
+.texto__formularioper {
+  color: blue; }
 
 /* fin personalizados*/
 /*contacto*/
