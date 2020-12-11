@@ -2,16 +2,31 @@
 @import "fuentes";
 @mixin titulosprincipales {
     color:#D85B65;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
+    font-size: 34px;
 }
 
 @mixin titulossecundarios {
   color: #1D1D1B;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 24px;
 }
+
+@mixin textofooter {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+@mixin textofooterdescripcion {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
 
 body {
     background-color: $body-background-color; /* Uso la variable*/
@@ -29,18 +44,43 @@ body {
   padding: 10px;
   background-color: #EB7C63;
   margin-top: 25px;
+  font-family: $font-family-footer; /* Uso la variable*/
+  color: #ffffff;
+}
+
+.texto__footer {
+  @include textofooter;
+}
+
+.texto__footer-descripcion {
+  @include textofooterdescripcion;
+}
+
+.texto__footer-nav{
+  color:#ffffff;
+}
+
+.texto__footer-nav:hover{
+  color:#AFDACF;
 }
 /* fin footer*/
+
+/* logo header*/
 
 .logo__header {
   margin: 30px;
 }
 
+/* fin logo header*/
+
+/* nav */
+
 .navbar-nav {
   a{
   color:#4D4D4D !important;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 24px;
+  font-family: $font-family-nav;
+  font-weight: $font-weight-nav;
+  font-size: 21px;
   padding: 5px;
 }
 }
@@ -50,18 +90,68 @@ body {
     color:#EB7C63 !important;
 }
 
+/* fin nav */
+
+
 .buscadorPp {
   margin-top: 30px;
   font-family: $font-family-buscadorPrincipal;
   font-weight: $font-weight-buscadorPrincipal;
 }
 
+/* buscador principal */
+.input-group-append {
+  background-color: #D85B65;
+}
+
+.btn {
+  color: white;
+  border-color: #D85B65;
+}
+
+.outline-secondary{
+  color: white;
+  background-color: #777777;
+  border-color: #777777;
+}
+
+/* fin buscador principal */
+
+
+/*textos*/
+
 .titulos__principales {
   @include titulosprincipales;
 }
 
-.titulosSecundarios {
+.titulos__secundarios {
   @include titulossecundarios;
+}
+
+.titulossecundarios__gift {
+  color: #1D1D1B;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  font-size: 24px;
+
+}
+.font__gift {
+  color: #819583;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.texto__index{
+  color: #1D1D1B;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 24px;
+}
 }
 
 .titulosSecundariosbox {
@@ -113,11 +203,6 @@ body {
   margin-top: 15px;
 }
 
-.giftCard h3 {
-  font-weight: 300;
-  font-size: 26px;
-}
-
 .giftCard ul {
   list-style: none;
   padding: 0;
@@ -164,6 +249,7 @@ body {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
 }
 
 .productosDestacados .cuadros .cuadros-img {
