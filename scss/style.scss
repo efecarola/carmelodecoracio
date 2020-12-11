@@ -304,7 +304,6 @@ body {
   color: #777777;
 }
 
-
 /*newsletter*/
 .newsletterPrincipal{
  background-color:#FDD7A1;
@@ -338,10 +337,6 @@ body {
 
 /*personalizados*/
 
-.menuPrincipalPer {
-  color:#D85B65;
-}
-
 .primerRenglon, .segundoRenglon, .tercerRenglon {
   padding: 10px;
 }
@@ -356,8 +351,13 @@ body {
   font-weight: 600;
   text-align: center;
 }
-
+.card-text {
+  color:#1F1A3F;
+  font-family:'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
 }
+
 .formulario__per {
   background-color: #B3D5F2;
 }
@@ -391,12 +391,39 @@ body {
 
 /*contacto*/
 
-.menuPrincipalContacto {
-  color:#D85B65;
+.btn__contacto {
+  background-color: #EB7C63;
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  font-family:'Lato', sans-serif;
+  border: none;
+  position: relative;
 }
 
+.btn__contacto:hover {
+  background-color: #ffffff;
+  color:#1F1A3F;
+  border: none;
+}
 
-.titulosFormulario {
-  color: #1D1D1B;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;}
+.preguntas__frecuentes {
+  margin-top: 15px;
+}
+
+.titulos__preguntas {
+  color:#EA5467;
+  font-family:'Lato', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 18px;
+  list-style:none;
+}
+
+.titulos__respuestas {
+  color:#4D4D4D;
+  font-family:'Lato', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  font-size: 18px;
+}
