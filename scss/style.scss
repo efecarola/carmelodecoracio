@@ -134,8 +134,8 @@ body {
   font-weight: 600;
   text-align: left;
   font-size: 24px;
-
 }
+
 .font__gift {
   color: #819583;
   font-family: 'Lato', sans-serif;
@@ -168,6 +168,13 @@ body {
   text-align: center;
 }
 
+.text-center .text-md-left {
+  color:red !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 24px;
+}
 
 
 .titulosSecundariosbox {
@@ -300,7 +307,6 @@ body {
 /*newsletter*/
 .newsletterPrincipal{
  background-color: #FDD7A1;
- padding: 30px;
  margin-top: 15px;
 }
 
