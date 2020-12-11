@@ -168,14 +168,6 @@ body {
   text-align: center;
 }
 
-.text-center .text-md-left {
-  color:red !important;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  text-align: left;
-  font-size: 24px;
-}
-
 
 .titulosSecundariosbox {
   color: #333333;
@@ -258,6 +250,7 @@ body {
   margin-top: 15px;
 }
 
+}
 .productosDestacados .cuadros {
   margin-bottom: 20px;
   overflow: hidden;
@@ -273,6 +266,9 @@ body {
   overflow: hidden;
 }
 
+.zoom img {
+  align-items: center;
+}
 .zoom {
   transition: transform .2s; /* Animation */
   margin: 0 auto;
@@ -309,10 +305,11 @@ body {
  background-color: #FDD7A1;
  margin-top: 15px;
 }
-
 .btn-primary {
   background-color: #AFDACF;
   color:#4D4D4D;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-primary:hover {
