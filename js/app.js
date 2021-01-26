@@ -52,7 +52,7 @@ function buildCart(){
 
 
 // Instancio la clase (objeto) que cree en DomBuilder.js
-const DomBuilder = new DomBuilder();
+const DomBuilder = new DOMBuilder();
 // Este array se va a llenar con las selecciones que se hagan
 let selectedProducts = [];
 
