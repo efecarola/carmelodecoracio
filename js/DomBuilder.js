@@ -1,7 +1,7 @@
 
 // Esta clase va a permitir crear elementos en el HTML sin especificacion
 
-class DOMBuilder{
+class DomBuilder{
     constructor(){
 
     }
